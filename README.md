@@ -47,10 +47,10 @@ python3 -m venv ~/dev/mypy/myenv
 ```
 source ~/dev/mypy/myenv/bin/activate
 ```
-- Use `deactivate` to exist the `virtual-env`
+- Use `deactivate` to exit the `virtual-env`
 ---
 ## Initialize Django 
-- Create a `requirement.txt` file in the workspace location to download modules for `django` with following content:
+- Create a `requirements.txt` file in the workspace location to download modules for `django` with following content:
 ```
 Django>=3.0,<4.0
 shortuuid>=1.0.1
